@@ -8,12 +8,18 @@ FROM python as python-build-stage
 
 ARG BUILD_ENVIRONMENT=local
 
+# Debian bullseye CN source https://mirrors.tuna.tsinghua.edu.cn
+COPY ./sources-bullseye.list /etc/apt/sources.list
+
 # Install apt packages
 RUN apt-get update && apt-get install --no-install-recommends -y \
   # dependencies for building Python packages
   build-essential \
   # mysql dependency
   default-libmysqlclient-dev
+
+# pypi CN source https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 # Requirements are installed here to ensure they will be cached.
 COPY ./requirements .
