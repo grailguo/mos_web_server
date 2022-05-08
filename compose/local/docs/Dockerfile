@@ -12,8 +12,8 @@ ENV PYTHONDONTWRITEBYTECODE 1
 RUN apt-get update && apt-get install --no-install-recommends -y \
   # dependencies for building Python packages
   build-essential \
-  # psycopg2 dependencies
-  libpq-dev \
+  # mysql dependency
+  default-libmysqlclient-dev \
   # cleaning up unused files
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
   && rm -rf /var/lib/apt/lists/*
@@ -37,8 +37,8 @@ ENV PYTHONDONTWRITEBYTECODE 1
 RUN apt-get update && apt-get install --no-install-recommends -y \
   # To run the Makefile
   make \
-  # psycopg2 dependencies
-  libpq-dev \
+  # mysql dependency
+  default-libmysqlclient-dev \
   # Translations dependencies
   gettext \
   # Uncomment below lines to enable Sphinx output to latex and pdf

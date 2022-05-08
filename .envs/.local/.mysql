@@ -1,0 +1,8 @@
+# MySQL
+# ------------------------------------------------------------------------------
+MYSQL_HOST=mysql
+MYSQL_PORT=3306
+MYSQL_DATABASE=mos_web_server
+MYSQL_USER=uxhunLJWpmYTebVfLVeXsZkdDUBCbSUu
+MYSQL_PASSWORD=ANdCdd5pjIjhXvQ7i7zJXzZeUAdK2qMnWSbmIt71As5IR88FnOiigcanxqQhHW8I
+MYSQL_ROOT_PASSWORD=rLOLMYbWLxEM84coG6zvJtwSYtwBfwRlDsfwQDMFKuvaJ4Q0PSKxaLwRuTTTGMrQ2O4o0KMUN3

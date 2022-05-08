@@ -1,8 +1,8 @@
 version: '3'
 
 volumes:
-  mos_web_server_local_postgres_data: {}
-  mos_web_server_local_postgres_data_backups: {}
+  mos_web_server_local_mysql_data: {}
+  mos_web_server_local_mysql_data_backups: {}
 
 services:
   django:
@@ -13,27 +13,26 @@ services:
     container_name: mos_web_server_local_django
     platform: linux/x86_64
     depends_on:
-      - postgres
+      - mysql
     volumes:
       - .:/app:z
     env_file:
       - ./.envs/.local/.django
-      - ./.envs/.local/.postgres
+      - ./.envs/.local/.mysql
     ports:
       - "8000:8000"
     command: /start
-
-  postgres:
+  mysql:
     build:
       context: .
-      dockerfile: ./compose/production/postgres/Dockerfile
-    image: mos_web_server_production_postgres
-    container_name: mos_web_server_local_postgres
+      dockerfile: ./compose/production/mysql/Dockerfile
+    image: mos_web_server_production_mysql
+    container_name: mysql
     volumes:
-      - mos_web_server_local_postgres_data:/var/lib/postgresql/data:Z
-      - mos_web_server_local_postgres_data_backups:/backups:z
+      - mos_web_server_local_mysql_data:/var/lib/mysql:z
+      - mos_web_server_local_mysql_data_backups:/backups:z
     env_file:
-      - ./.envs/.local/.postgres
+      - ./.envs/.local/.mysql
 
   docs:
     image: mos_web_server_local_docs
