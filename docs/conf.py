@@ -27,8 +27,8 @@ django.setup()
 # -- Project information -----------------------------------------------------
 
 project = "MOS Web Server"
-copyright = """2022, Liang Guo"""
-author = "Liang Guo"
+copyright = """2022, PURSPEC"""
+author = "Guo Liang"
 
 
 # -- General configuration ---------------------------------------------------
