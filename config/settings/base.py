@@ -1,11 +1,13 @@
 """
 Base settings to build other settings files upon.
 """
+import os
 from pathlib import Path
 
 import environ
 
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
+BASE_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 # mos_web_server/
 APPS_DIR = ROOT_DIR / "mos_web_server"
 env = environ.Env()
@@ -64,7 +66,9 @@ DJANGO_APPS = [
     # "django.contrib.humanize", # Handy template tags
     "django.contrib.admin",
     "django.forms",
+    'django_json_widget',
 ]
+
 THIRD_PARTY_APPS = [
     "crispy_forms",
     "crispy_bootstrap5",
@@ -73,16 +77,30 @@ THIRD_PARTY_APPS = [
     "allauth.socialaccount",
     "rest_framework",
     "rest_framework.authtoken",
+    'django_filters',
     "corsheaders",
     "drf_spectacular",
+    'captcha',
+    'tyadmin_api_cli',
+    'tyadmin_api',
+    'admin_ordering',
+    'sortedm2m',
 ]
 
 LOCAL_APPS = [
     "mos_web_server.users",
     # Your stuff: custom apps go here
+    'erecto',
+    'reparo',
+    'accio',
 ]
+
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
+
+TY_ADMIN_CONFIG = {
+    'GEN_APPS': ['erecto', 'reparo', 'accio', ]
+}
 
 # MIGRATIONS
 # ------------------------------------------------------------------------------
@@ -147,7 +165,7 @@ STATIC_ROOT = str(ROOT_DIR / "staticfiles")
 # https://docs.djangoproject.com/en/dev/ref/settings/#static-url
 STATIC_URL = "/static/"
 # https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/#std:setting-STATICFILES_DIRS
-STATICFILES_DIRS = [str(APPS_DIR / "static")]
+STATICFILES_DIRS = [str(APPS_DIR / "static"), str(ROOT_DIR / "static")]
 # https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/#staticfiles-finders
 STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
@@ -169,7 +187,7 @@ TEMPLATES = [
         # https://docs.djangoproject.com/en/dev/ref/settings/#std:setting-TEMPLATES-BACKEND
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         # https://docs.djangoproject.com/en/dev/ref/settings/#dirs
-        "DIRS": [str(APPS_DIR / "templates")],
+        "DIRS": [str(APPS_DIR / "templates"), os.path.join(BASE_DIR, 'templates')],
         # https://docs.djangoproject.com/en/dev/ref/settings/#app-dirs
         "APP_DIRS": True,
         "OPTIONS": {
@@ -284,6 +302,13 @@ REST_FRAMEWORK = {
     ),
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    'DEFAULT_FILTER_BACKENDS': [
+        'rest_framework.filters.SearchFilter',
+        'django_filters.rest_framework.DjangoFilterBackend'
+    ],
+
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10
 }
 
 # django-cors-headers - https://github.com/adamchainz/django-cors-headers#setup

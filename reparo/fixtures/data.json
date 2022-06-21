@@ -1,0 +1,122 @@
+[
+  {
+    "model": "reparo.device",
+    "pk": 1,
+    "fields": {
+      "name": "小型质谱仪",
+      "model": "B1001",
+      "sn": "MS13B1-1906-307",
+      "description": "",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "reparo.device",
+    "pk": 2,
+    "fields": {
+      "name": "微型质谱仪",
+      "model": "C1001",
+      "sn": "MS15B01-C122-0301",
+      "description": "",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "reparo.device",
+    "pk": 3,
+    "fields": {
+      "name": "便携质谱仪",
+      "model": "P1001",
+      "sn": "MS15B01-P122-0301",
+      "description": "",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "reparo.device",
+    "pk": 4,
+    "fields": {
+      "name": "小型质谱仪",
+      "model": "B1001",
+      "sn": "MS13R1-2008-304",
+      "description": "pms client std v1.8.1.6\r\nfpga firmware v121(0x79)\r\npmsdb.db v1.1.33 20201113",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "reparo.device",
+    "pk": 5,
+    "fields": {
+      "name": "小型质谱仪",
+      "model": "B1001",
+      "sn": "MS13B3-2004-301",
+      "description": "pmsdb.db v1.1.30 20201019\r\npms client std v2.0.0.3\r\nPro v2.1.0.3\r\nfpga firmware v121(0x79)",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "reparo.device",
+    "pk": 6,
+    "fields": {
+      "name": "便携质谱仪",
+      "model": "P1001",
+      "sn": "MS13R1-2008-301",
+      "description": "MS13R1-2008-301",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "reparo.device",
+    "pk": 7,
+    "fields": {
+      "name": "小型质谱仪",
+      "model": "B1001",
+      "sn": "MS13B2-2003-001",
+      "description": "application Demo1",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "reparo.device",
+    "pk": 8,
+    "fields": {
+      "name": "小型质谱仪",
+      "model": "B1001",
+      "sn": "MS13B2-2003-002",
+      "description": "application Demo2",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "reparo.device",
+    "pk": 9,
+    "fields": {
+      "name": "小型质谱仪",
+      "model": "B1001",
+      "sn": "MS13R01-320-1208",
+      "description": "application device",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "reparo.device",
+    "pk": 10,
+    "fields": {
+      "name": "便携质谱仪",
+      "model": "C1001",
+      "sn": "MS15B03-P121--0702",
+      "description": "application Demo2",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  }
+]

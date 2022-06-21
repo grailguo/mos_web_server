@@ -1,0 +1,386 @@
+[
+  {
+    "model": "erecto.methodtype",
+    "pk": 1,
+    "fields": {
+      "name": "MS1",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.methodtype",
+    "pk": 2,
+    "fields": {
+      "name": "MS2",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.methodtype",
+    "pk": 3,
+    "fields": {
+      "name": "MS2_DDA",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.methodtype",
+    "pk": 4,
+    "fields": {
+      "name": "MS3",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.methodtype",
+    "pk": 5,
+    "fields": {
+      "name": "MS3_DDA",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.methodtype",
+    "pk": 6,
+    "fields": {
+      "name": "MS4",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.analysistype",
+    "pk": 1,
+    "fields": {
+      "name": "Calibration",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.analysistype",
+    "pk": 2,
+    "fields": {
+      "name": "Targeted",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.analysistype",
+    "pk": 3,
+    "fields": {
+      "name": "DDA",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.analysistype",
+    "pk": 4,
+    "fields": {
+      "name": "Targeted_pro",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.analysistype",
+    "pk": 5,
+    "fields": {
+      "name": "Targeted_quant",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.analysistype",
+    "pk": 6,
+    "fields": {
+      "name": "Calib_ISORF",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.analysistype",
+    "pk": 7,
+    "fields": {
+      "name": "Calib_CIDRF",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.analysistype",
+    "pk": 8,
+    "fields": {
+      "name": "Calib_Pressure",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.source",
+    "pk": 1,
+    "fields": {
+      "name": "PCS",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.source",
+    "pk": 2,
+    "fields": {
+      "name": "DCS",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.source",
+    "pk": 3,
+    "fields": {
+      "name": "nESI",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.matrix",
+    "pk": 1,
+    "fields": {
+      "name": "甲醇",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.matrix",
+    "pk": 2,
+    "fields": {
+      "name": "血液",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.matrix",
+    "pk": 3,
+    "fields": {
+      "name": "尿液",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.matrix",
+    "pk": 4,
+    "fields": {
+      "name": "唾液",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.matrix",
+    "pk": 5,
+    "fields": {
+      "name": "人脑",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.eluent",
+    "pk": 1,
+    "fields": {
+      "name": "甲醇",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.eluent",
+    "pk": 2,
+    "fields": {
+      "name": "乙醇",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.eluent",
+    "pk": 3,
+    "fields": {
+      "name": "乙腈",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.eluent",
+    "pk": 4,
+    "fields": {
+      "name": "蒸馏水",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.concunit",
+    "pk": 1,
+    "fields": {
+      "name": "%",
+      "description": "百分比",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.concunit",
+    "pk": 2,
+    "fields": {
+      "name": "ppm",
+      "description": "百万分比浓度",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.concunit",
+    "pk": 3,
+    "fields": {
+      "name": "ppb",
+      "description": "十亿分比浓度",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.concunit",
+    "pk": 4,
+    "fields": {
+      "name": "mg/mL",
+      "description": "毫克/毫升",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.concunit",
+    "pk": 5,
+    "fields": {
+      "name": "μg/mL",
+      "description": "微克/毫升",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.concunit",
+    "pk": 6,
+    "fields": {
+      "name": "ng/mL",
+      "description": "纳克/毫升",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.concunit",
+    "pk": 7,
+    "fields": {
+      "name": "mg/g",
+      "description": "毫克/克",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.concunit",
+    "pk": 8,
+    "fields": {
+      "name": "μg/g",
+      "description": "微克/克",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.concunit",
+    "pk": 9,
+    "fields": {
+      "name": "ng/g",
+      "description": "纳克/克",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.unit",
+    "pk": 1,
+    "fields": {
+      "name": "mL",
+      "description": "毫升",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.unit",
+    "pk": 2,
+    "fields": {
+      "name": "μL",
+      "description": "微升",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.unit",
+    "pk": 3,
+    "fields": {
+      "name": "nL",
+      "description": "纳升",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.unit",
+    "pk": 4,
+    "fields": {
+      "name": "mg",
+      "description": "毫克",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.unit",
+    "pk": 5,
+    "fields": {
+      "name": "μg",
+      "description": "微克",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "erecto.unit",
+    "pk": 6,
+    "fields": {
+      "name": "ng",
+      "description": "纳克",
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00"
+    }
+  }
+]

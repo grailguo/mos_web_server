@@ -16,8 +16,19 @@ django-allauth==0.51.0  # https://github.com/pennersr/django-allauth
 django-crispy-forms==1.14.0  # https://github.com/django-crispy-forms/django-crispy-forms
 crispy-bootstrap5==0.6  # https://github.com/django-crispy-forms/crispy-bootstrap5
 django-redis==5.2.0  # https://github.com/jazzband/django-redis
+# django-filter=22.1  # https://github.com/carltongibson/django-filter/tree/main
+# Django json widget is an alternative widget that makes it easy to edit the jsonfield field of django.
+django-json-widget==1.1.1  # https://github.com/jmrivas86/django-json-widget
+django-admin-ordering==0.15.0  # https://github.com/matthiask/django-admin-ordering/
+django-sortedm2m == 3.1.1  # https://github.com/jazzband/django-sortedm2m
 # Django REST Framework
+# ------------------------------------------------------------------------------
 djangorestframework==3.13.1  # https://github.com/encode/django-rest-framework
 django-cors-headers==3.13.0 # https://github.com/adamchainz/django-cors-headers
 # DRF-spectacular for api documentation
 drf-spectacular==0.22.1  # https://github.com/tfranzel/drf-spectacular
+
+# tyadmin
+# ------------------------------------------------------------------------------
+# modern base on models django admin powered by Antd Design Pro
+tyadmin-api-cli==0.8.2  # https://github.com/mtianyan/tyadmin_api_cli

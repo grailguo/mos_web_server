@@ -1,0 +1,1407 @@
+[
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 1,
+            "code": "CPC-0001",
+            "created": "2019-11-25 03:27:41.696059+00:00",
+            "deleted": false,
+            "description": "正模式PCS校准盒",
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:27:41.696059+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 1,
+            "code": "CPC-0002",
+            "created": "2019-11-25 03:28:24.689304+00:00",
+            "deleted": false,
+            "description": "负模式PCS校准盒",
+
+            "polarity": "NEG",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3500,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:28:24.689304+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1001",
+            "created": "2019-11-25 03:28:46.688355+00:00",
+            "deleted": false,
+            "description": "冰毒尿液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:28:46.688355+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1002",
+            "created": "2019-11-25 03:29:51.791109+00:00",
+            "deleted": false,
+            "description": "吗啡尿液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:29:51.791109+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1003",
+            "created": "2019-11-25 03:31:24.815478+00:00",
+            "deleted": false,
+            "description": "K粉尿液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:31:24.815478+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1004",
+            "created": "2019-11-25 03:32:12.760852+00:00",
+            "deleted": false,
+            "description": "摇头丸尿液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:32:12.760852+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1005",
+            "created": "2019-11-25 03:33:04.702993+00:00",
+            "deleted": false,
+            "description": "大麻尿液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:33:04.702993+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1101",
+            "created": "2019-11-25 03:33:49.725316+00:00",
+            "deleted": false,
+            "description": "冰毒毛发PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:33:49.725316+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1102",
+            "created": "2019-11-25 03:34:20.706579+00:00",
+            "deleted": false,
+            "description": "吗啡毛发PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:34:20.706579+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1103",
+            "created": "2019-11-25 03:34:52.691881+00:00",
+            "deleted": false,
+            "description": "K粉毛发PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:34:52.691881+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1104",
+            "created": "2019-11-25 03:35:33.408670+00:00",
+            "deleted": false,
+            "description": "摇头丸毛发PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:35:33.408670+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1105",
+            "created": "2019-11-25 03:36:31.776271+00:00",
+            "deleted": false,
+            "description": "大麻毛发PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:36:31.776271+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1201",
+            "created": "2019-11-25 03:37:37.790327+00:00",
+            "deleted": false,
+            "description": "冰毒唾液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:37:37.790327+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1202",
+            "created": "2019-11-25 03:44:49.715474+00:00",
+            "deleted": false,
+            "description": "吗啡唾液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:44:49.715474+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1203",
+            "created": "2019-11-25 03:45:17.691306+00:00",
+            "deleted": false,
+            "description": "K粉唾液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:45:17.691306+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1204",
+            "created": "2019-11-25 03:46:02.683951+00:00",
+            "deleted": false,
+            "description": "摇头丸唾液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:46:02.683951+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-1205",
+            "created": "2019-11-25 03:46:47.720519+00:00",
+            "deleted": false,
+            "description": "大麻唾液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:46:47.720519+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-3001",
+            "created": "2019-11-25 03:55:01.257138+00:00",
+            "deleted": false,
+            "description": "冰毒、吗啡、K粉三联尿液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:55:01.257138+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-5001",
+            "created": "2019-11-25 03:56:02.742358+00:00",
+            "deleted": false,
+            "description": "冰毒、吗啡、K粉、摇头丸、大麻五联尿液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:56:02.742358+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-3101",
+            "created": "2019-11-25 03:58:00.924717+00:00",
+            "deleted": false,
+            "description": "冰毒、吗啡、K粉三联毛发PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:58:00.924717+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-5101",
+            "created": "2019-11-25 03:58:59.687798+00:00",
+            "deleted": false,
+            "description": "冰毒、吗啡、K粉、摇头丸、大麻五联毛发PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 03:58:59.687798+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-3201",
+            "created": "2019-11-25 04:00:48.706210+00:00",
+            "deleted": false,
+            "description": "冰毒、吗啡、K粉三联唾液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 04:00:48.706210+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-5201",
+            "created": "2019-11-25 04:01:42.693301+00:00",
+            "deleted": false,
+            "description": "冰毒、吗啡、K粉、摇头丸、大麻五联唾液PCS检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 04:01:42.693301+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 3,
+            "code": "CPD-1001",
+            "created": "2019-11-25 04:03:33.748468+00:00",
+            "deleted": false,
+            "description": "管制药品PCS筛查盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 04:03:33.748468+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 3,
+            "code": "CPD-2001",
+            "created": "2019-11-25 04:03:49.782522+00:00",
+            "deleted": false,
+            "description": "毒物PCS筛查盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 04:03:49.782522+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CNT-0001",
+            "created": "2019-11-25 04:04:23.686099+00:00",
+            "deleted": false,
+            "description": "nESI检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 3,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 04:04:23.686099+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CMS-1001",
+            "created": "2019-11-25 04:04:43.829402+00:00",
+            "deleted": false,
+            "description": "microESI检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 3,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-11-25 04:04:43.829402+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 4,
+            "code": "CDT-2301",
+            "created": "2019-12-03 03:36:14.696474+00:00",
+            "deleted": false,
+            "description": "华山医院,直接采样检测盒(2-HG)",
+
+            "polarity": "NEG",
+            "pre_spary_time": 10000,
+            "source_id": 1,
+            "spray_voltage_neg": 4500,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-12-03 03:36:14.696474+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-3102",
+            "created": "2019-12-20 05:47:10.877320+00:00",
+            "deleted": false,
+            "description": "新型毒品毛发检测盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-12-20 05:47:10.877320+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-3002",
+            "created": "2019-12-20 06:05:53.744607+00:00",
+            "deleted": false,
+            "description": "新型毒品尿检盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-12-20 06:05:53.744607+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 3,
+            "code": "CPD-3001",
+            "created": "2019-12-20 06:09:21.843802+00:00",
+            "deleted": false,
+            "description": "新型毒品可疑物PCS筛查盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-12-20 06:09:21.843802+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 31
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "TST-0001",
+            "created": "2019-12-26 02:46:22.807822+00:00",
+            "deleted": false,
+            "description": "测试1，本二维码绑定物质以Config文件为准，本页面下绑定物质无效",
+
+            "polarity": "NEG",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-12-26 02:46:22.807822+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 32
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "TST-0002",
+            "created": "2019-12-26 02:48:12.027884+00:00",
+            "deleted": false,
+            "description": "测试2，本二维码绑定物质以Config文件为准，本页面下绑定物质无效",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2019-12-26 02:48:12.027884+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 33
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 1,
+            "code": "DEV-0001",
+            "created": "2020-03-11 06:55:31.668772+00:00",
+            "deleted": false,
+            "description": "正模式校准二维码，等价于CPC-0001",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-11 06:55:31.668772+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 35
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 1,
+            "code": "DEV-0002",
+            "created": "2020-03-11 06:56:32.977075+00:00",
+            "deleted": false,
+            "description": "负模式校准二维码，等价于CPC-0002",
+
+            "polarity": "NEG",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-11 06:56:32.977075+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 36
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1001",
+            "created": "2020-03-11 06:58:27.690783+00:00",
+            "deleted": false,
+            "description": "混合模式靶向 利血平 正模式 单个谱",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-11 06:58:27.690783+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 37
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1002",
+            "created": "2020-03-11 06:59:21.721342+00:00",
+            "deleted": false,
+            "description": "混合模式靶向 维拉帕米 正模式 单个谱",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-11 06:59:21.721342+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 38
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1003",
+            "created": "2020-03-11 07:01:32.023815+00:00",
+            "deleted": false,
+            "description": "混合模式靶向 MPPA 正模式 单个谱",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-11 07:01:32.023815+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 39
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 3,
+            "code": "DEV-2001",
+            "created": "2020-03-11 07:02:21.639543+00:00",
+            "deleted": false,
+            "description": "混合模式DDA, dev_test_2001",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-11 07:02:21.639543+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 40
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 3,
+            "code": "DEV-2002",
+            "created": "2020-03-11 07:03:14.719703+00:00",
+            "deleted": false,
+            "description": "正模式DDA,  dev_test_pos_only",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-11 07:03:14.719703+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 41
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 3,
+            "code": "DEV-2003",
+            "created": "2020-03-11 07:04:06.706801+00:00",
+            "deleted": false,
+            "description": "负模式DDA, dev_test_neg_only",
+
+            "polarity": "NEG",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-11 07:04:06.706801+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 42
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 4,
+            "code": "DEV-3001",
+            "created": "2020-03-11 07:05:57.117307+00:00",
+            "deleted": false,
+            "description": "高级靶向检测 目标物【谷氨酸】【2-HG】；等价于CDT-2301",
+
+            "polarity": "NEG",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-11 07:05:57.117307+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 43
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 3,
+            "code": "CPD-3002",
+            "created": "2020-03-25 06:35:29.798305+00:00",
+            "deleted": false,
+            "description": "芬太尼PCS筛查盒",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-25 06:35:29.798305+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 44
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1004",
+            "created": "2020-03-26 09:46:40.693421+00:00",
+            "deleted": false,
+            "description": "混合模式靶向 氯霉素 负模式 单个谱",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:46:40.693421+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 45
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1005",
+            "created": "2020-03-26 09:48:13.724851+00:00",
+            "deleted": false,
+            "description": "混合模式靶向 天冬氨酸 负模式 单个谱",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:48:13.724851+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 46
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1006",
+            "created": "2020-03-26 09:49:36.712260+00:00",
+            "deleted": false,
+            "description": "混合模式靶向(TBD)",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:49:36.712260+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 47
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1007",
+            "created": "2020-03-26 09:50:19.768664+00:00",
+            "deleted": false,
+            "description": "混合模式靶向(TBD)",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:50:19.768664+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 48
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1008",
+            "created": "2020-03-26 09:51:10.696296+00:00",
+            "deleted": false,
+            "description": "混合模式靶向(TBD)",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:51:10.696296+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 49
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1009",
+            "created": "2020-03-26 09:52:32.849517+00:00",
+            "deleted": false,
+            "description": "混合模式靶向(TBD)",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:52:32.849517+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 50
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1010",
+            "created": "2020-03-26 09:53:23.764403+00:00",
+            "deleted": false,
+            "description": "混合模式靶向 5个物质 正模式3个谱 负模式2个谱\n利血平，维拉帕米，MPPA；氯霉素，天冬氨酸",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:53:23.764403+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 51
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1011",
+            "created": "2020-03-26 09:54:22.688235+00:00",
+            "deleted": false,
+            "description": "混合模式靶向(TBD)",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:54:22.688235+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 52
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1012",
+            "created": "2020-03-26 09:55:10.620476+00:00",
+            "deleted": false,
+            "description": "混合模式靶向(TBD)",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:55:10.620476+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 53
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1013",
+            "created": "2020-03-26 09:55:58.693131+00:00",
+            "deleted": false,
+            "description": "混合模式靶向(TBD)",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:55:58.693131+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 54
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1014",
+            "created": "2020-03-26 09:57:29.842807+00:00",
+            "deleted": false,
+            "description": "混合模式靶向(TBD)",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:57:29.842807+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 55
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "DEV-1015",
+            "created": "2020-03-26 09:58:24.832209+00:00",
+            "deleted": false,
+            "description": "混合模式靶向(TBD)",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-03-26 09:58:24.832209+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 56
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "CPT-7900",
+            "created": "2020-05-19 06:07:52.736882+00:00",
+            "deleted": false,
+            "description": "重点毒物PCS检测盒",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-05-19 06:07:52.736882+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 57
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 3,
+            "code": "DEV-2000",
+            "created": "2020-05-31 09:30:44.885603+00:00",
+            "deleted": false,
+            "description": "DDA 空白二维码, 不绑定任何Tag",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-05-31 09:30:44.885603+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 58
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 2,
+            "code": "QCT-0001",
+            "created": "2020-07-22 09:06:46.744325+00:00",
+            "deleted": false,
+            "description": "",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-07-22 09:06:46.744325+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 59
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 3,
+            "code": "QCD-0001",
+            "created": "2020-07-22 09:07:16.625071+00:00",
+            "deleted": false,
+            "description": "",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-07-22 09:07:16.625071+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 60
+    },
+    {
+        "fields": {
+            "activated": false,
+            "analysis_type": 2,
+            "code": "CPR-0001",
+            "created": "2020-10-20 02:18:51.468992+00:00",
+            "deleted": false,
+            "description": "",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-10-20 02:18:51.468992+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 61
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 6,
+            "code": "IRF-2001",
+            "created": "2020-11-27 03:28:20.295163+00:00",
+            "deleted": false,
+            "description": "正模式ISO-RF校准",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 3,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 2500,
+            "updated": "2020-11-27 03:28:20.295163+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 62
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 6,
+            "code": "IRF-2002",
+            "created": "2020-11-27 03:29:49.054174+00:00",
+            "deleted": false,
+            "description": "负模式ISO-RF校准",
+
+            "polarity": "NEG",
+            "pre_spary_time": 500,
+            "source_id": 3,
+            "spray_voltage_neg": 2500,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-11-27 03:29:49.054174+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 63
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 7,
+            "code": "CRF-2001",
+            "created": "2020-11-27 03:31:02.278216+00:00",
+            "deleted": false,
+            "description": "CID-RF校准",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 3,
+            "spray_voltage_neg": 2500,
+            "spray_voltage_pos": 2500,
+            "updated": "2020-11-27 03:31:02.278216+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 64
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 6,
+            "code": "DEV-4001",
+            "created": "2020-12-10 01:46:11.239030+00:00",
+            "deleted": false,
+            "description": "正模式ISO_RF校准",
+
+            "polarity": "POS",
+            "pre_spary_time": 500,
+            "source_id": 3,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 2500,
+            "updated": "2020-12-10 01:46:11.239030+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 65
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 6,
+            "code": "DEV-4002",
+            "created": "2020-12-10 01:48:05.507208+00:00",
+            "deleted": false,
+            "description": "负模式ISO_RF校准",
+
+            "polarity": "NEG",
+            "pre_spary_time": 500,
+            "source_id": 3,
+            "spray_voltage_neg": 2500,
+            "spray_voltage_pos": 4500,
+            "updated": "2020-12-10 01:48:05.507208+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 66
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 7,
+            "code": "DEV-5001",
+            "created": "2020-12-10 01:49:12.539851+00:00",
+            "deleted": false,
+            "description": "CID RF 校准",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 3,
+            "spray_voltage_neg": 2500,
+            "spray_voltage_pos": 2500,
+            "updated": "2020-12-10 01:49:12.539851+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 67
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 8,
+            "code": "CSP-1001",
+            "created": "2021-03-03 02:17:58.452444+00:00",
+            "deleted": false,
+            "description": "扫描气压校准",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2021-03-03 02:17:58.452444+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 68
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 8,
+            "code": "DEV-6001",
+            "created": "2021-03-03 02:21:55.945891+00:00",
+            "deleted": false,
+            "description": "同CSP-1001，扫描气压校准",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2021-03-03 02:21:55.945891+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 69
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 5,
+            "code": "TST-1001",
+            "created": "2021-05-17 05:36:41.184071+00:00",
+            "deleted": false,
+            "description": "测试1001， 混合模式靶向定量，本二维码绑定物质以Config文件为准，本页面下绑定物质无效",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2021-05-17 05:36:41.184071+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 70
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 5,
+            "code": "TST-1002",
+            "created": "2021-05-17 05:37:07.744992+00:00",
+            "deleted": false,
+            "description": "测试1002， 混合模式靶向定量，本二维码绑定物质以Config文件为准，本页面下绑定物质无效",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2021-05-17 05:37:07.744992+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 71
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 5,
+            "code": "DEV-1101",
+            "created": "2021-05-17 05:37:54.933508+00:00",
+            "deleted": false,
+            "description": "正模式定量 维拉帕米",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2021-05-17 05:37:54.933508+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 72
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 5,
+            "code": "DEV-1102",
+            "created": "2021-05-17 05:39:41.563714+00:00",
+            "deleted": false,
+            "description": "负模式定量  氯霉素",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2021-05-17 05:39:41.563714+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 73
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 5,
+            "code": "PQC-0001",
+            "created": "2021-08-25 09:22:39.609266+00:00",
+            "deleted": false,
+            "description": "PCS定量曲线校准",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2021-08-25 09:22:39.609266+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 74
+    },
+    {
+        "fields": {
+            "activated": true,
+            "analysis_type": 5,
+            "code": "PQT-0001",
+            "created": "2021-08-25 09:24:07.461131+00:00",
+            "deleted": false,
+            "description": "PCS定量检测",
+
+            "polarity": "ALL",
+            "pre_spary_time": 500,
+            "source_id": 1,
+            "spray_voltage_neg": 3000,
+            "spray_voltage_pos": 4500,
+            "updated": "2021-08-25 09:24:07.461131+00:00"
+        },
+        "model": "accio.cartridge",
+        "pk": 75
+    }
+]

@@ -10,7 +10,10 @@ Behold My Awesome Project!
 Moved to [settings](http://cookiecutter-django.readthedocs.io/en/latest/settings.html).
 
 ## Basic Commands
-
+python manage.py makemigrations erecto reparo
+python manage.py migrate
+python manage.py gen_all; cd tyadmin; npm run build; cd ..;
+python manage.py runserver
 ### Setting Up Your Users
 
 -   To create a **normal user account**, just go to Sign Up and fill out the form. Once you submit it, you'll see a "Verify Your E-mail Address" page. Go to your console to see a simulated email verification message. Copy the link into your browser. Now the user's email should be verified and ready to go.

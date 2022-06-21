@@ -1,0 +1,62 @@
+[
+  {
+    "fields": {
+      "activated": true,
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "deleted": false,
+      "description": "",
+      "name": "MS2_DDA",
+      "updated": "2022-03-25 10:00:00.000000+00:00"
+    },
+    "model": "accio.spectrumtag",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "activated": true,
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "deleted": false,
+      "description": "",
+      "name": "MS2_CID_AMP_LOW",
+      "updated": "2022-03-25 10:00:00.000000+00:00"
+    },
+    "model": "accio.spectrumtag",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "activated": true,
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "deleted": false,
+      "description": "",
+      "name": "MS2_CID_AMP_MEDIUM",
+      "updated": "2022-03-25 10:00:00.000000+00:00"
+    },
+    "model": "accio.spectrumtag",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "activated": true,
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "deleted": false,
+      "description": "",
+      "name": "MS2_CID_AMP_HIGH",
+      "updated": "2022-03-25 10:00:00.000000+00:00"
+    },
+    "model": "accio.spectrumtag",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "activated": true,
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "deleted": false,
+      "description": "",
+      "name": "MS3",
+      "updated": "2022-03-25 10:00:00.000000+00:00"
+    },
+    "model": "accio.spectrumtag",
+    "pk": 5
+  }
+]

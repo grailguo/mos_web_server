@@ -1,0 +1,32 @@
+[
+  {
+    "fields": {
+      "activated": true,
+      "code": "Q10001",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "deleted": false,
+      "description": "build in ES method",
+      "in_std_spectrum_id": 1227,
+      "quant_type": "ES",
+      "target_spectrum_id": 2329,
+      "updated": "2022-03-25 10:00:00.000000+00:00"
+    },
+    "model": "accio.quantmethod",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "activated": true,
+      "code": "Q10002",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "deleted": false,
+      "description": "build in IS method",
+      "in_std_spectrum_id": 1337,
+      "quant_type": "IS",
+      "target_spectrum_id": 1268,
+      "updated": "2022-03-25 10:00:00.000000+00:00"
+    },
+    "model": "accio.quantmethod",
+    "pk": 2
+  }
+]

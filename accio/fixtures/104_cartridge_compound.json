@@ -1,0 +1,1055 @@
+[
+    {
+        "fields": {
+            "cartridge_id": "3",
+            "compound_id": 12,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "cartridge_id": "4",
+            "compound_id": 95,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "cartridge_id": "5",
+            "compound_id": 11,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "cartridge_id": "6",
+            "compound_id": 10,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "cartridge_id": "7",
+            "compound_id": 97,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "cartridge_id": "8",
+            "compound_id": 12,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "cartridge_id": "9",
+            "compound_id": 95,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "cartridge_id": "10",
+            "compound_id": 11,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "cartridge_id": "11",
+            "compound_id": 10,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "cartridge_id": "12",
+            "compound_id": 97,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "cartridge_id": "13",
+            "compound_id": 12,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "cartridge_id": "14",
+            "compound_id": 95,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "cartridge_id": "15",
+            "compound_id": 11,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "cartridge_id": "16",
+            "compound_id": 10,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "cartridge_id": "17",
+            "compound_id": 97,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "cartridge_id": "18",
+            "compound_id": 12,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "cartridge_id": "18",
+            "compound_id": 95,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "cartridge_id": "18",
+            "compound_id": 11,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "cartridge_id": "19",
+            "compound_id": 12,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "cartridge_id": "19",
+            "compound_id": 95,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "cartridge_id": "19",
+            "compound_id": 11,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "cartridge_id": "19",
+            "compound_id": 10,
+            "sort_value": 4
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "cartridge_id": "19",
+            "compound_id": 97,
+            "sort_value": 5
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "cartridge_id": "20",
+            "compound_id": 12,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "cartridge_id": "20",
+            "compound_id": 95,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "cartridge_id": "20",
+            "compound_id": 11,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "cartridge_id": "21",
+            "compound_id": 12,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "cartridge_id": "21",
+            "compound_id": 95,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "cartridge_id": "21",
+            "compound_id": 11,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "cartridge_id": "21",
+            "compound_id": 10,
+            "sort_value": 4
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "cartridge_id": "21",
+            "compound_id": 97,
+            "sort_value": 5
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 31
+    },
+    {
+        "fields": {
+            "cartridge_id": "22",
+            "compound_id": 12,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 32
+    },
+    {
+        "fields": {
+            "cartridge_id": "22",
+            "compound_id": 95,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 33
+    },
+    {
+        "fields": {
+            "cartridge_id": "22",
+            "compound_id": 11,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 34
+    },
+    {
+        "fields": {
+            "cartridge_id": "23",
+            "compound_id": 12,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 35
+    },
+    {
+        "fields": {
+            "cartridge_id": "23",
+            "compound_id": 95,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 36
+    },
+    {
+        "fields": {
+            "cartridge_id": "23",
+            "compound_id": 11,
+            "sort_value": 4
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 37
+    },
+    {
+        "fields": {
+            "cartridge_id": "23",
+            "compound_id": 10,
+            "sort_value": 5
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 38
+    },
+    {
+        "fields": {
+            "cartridge_id": "23",
+            "compound_id": 97,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 39
+    },
+    {
+        "fields": {
+            "cartridge_id": "29",
+            "compound_id": 120,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 40
+    },
+    {
+        "fields": {
+            "cartridge_id": "29",
+            "compound_id": 103,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 41
+    },
+    {
+        "fields": {
+            "cartridge_id": "29",
+            "compound_id": 94,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 42
+    },
+    {
+        "fields": {
+            "cartridge_id": "30",
+            "compound_id": 120,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 43
+    },
+    {
+        "fields": {
+            "cartridge_id": "30",
+            "compound_id": 103,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 44
+    },
+    {
+        "fields": {
+            "cartridge_id": "30",
+            "compound_id": 94,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 45
+    },
+    {
+        "fields": {
+            "cartridge_id": "32",
+            "compound_id": 303,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 46
+    },
+    {
+        "fields": {
+            "cartridge_id": "32",
+            "compound_id": 304,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 47
+    },
+    {
+        "fields": {
+            "cartridge_id": "33",
+            "compound_id": 260,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 48
+    },
+    {
+        "fields": {
+            "cartridge_id": "33",
+            "compound_id": 305,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 49
+    },
+    {
+        "fields": {
+            "cartridge_id": "33",
+            "compound_id": 309,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 50
+    },
+    {
+        "fields": {
+            "cartridge_id": "33",
+            "compound_id": 308,
+            "sort_value": 4
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 51
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 60,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 52
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 78,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 53
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 79,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 54
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 80,
+            "sort_value": 4
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 55
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 81,
+            "sort_value": 5
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 56
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 82,
+            "sort_value": 6
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 57
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 84,
+            "sort_value": 7
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 58
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 116,
+            "sort_value": 8
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 59
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 117,
+            "sort_value": 9
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 60
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 118,
+            "sort_value": 10
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 61
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 119,
+            "sort_value": 11
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 62
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 120,
+            "sort_value": 12
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 63
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 121,
+            "sort_value": 13
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 64
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 122,
+            "sort_value": 14
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 65
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 123,
+            "sort_value": 15
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 66
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 145,
+            "sort_value": 16
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 67
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 146,
+            "sort_value": 17
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 68
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 147,
+            "sort_value": 18
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 69
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 148,
+            "sort_value": 19
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 70
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 149,
+            "sort_value": 20
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 71
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 199,
+            "sort_value": 21
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 72
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 207,
+            "sort_value": 22
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 73
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 225,
+            "sort_value": 23
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 74
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 226,
+            "sort_value": 24
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 75
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 227,
+            "sort_value": 25
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 76
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 318,
+            "sort_value": 26
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 77
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 320,
+            "sort_value": 27
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 78
+    },
+    {
+        "fields": {
+            "cartridge_id": "44",
+            "compound_id": 319,
+            "sort_value": 28
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 79
+    },
+    {
+        "fields": {
+            "cartridge_id": "38",
+            "compound_id": 312,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 80
+    },
+    {
+        "fields": {
+            "cartridge_id": "45",
+            "compound_id": 317,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 81
+    },
+    {
+        "fields": {
+            "cartridge_id": "57",
+            "compound_id": 305,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 82
+    },
+    {
+        "fields": {
+            "cartridge_id": "57",
+            "compound_id": 308,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 83
+    },
+    {
+        "fields": {
+            "cartridge_id": "57",
+            "compound_id": 309,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 84
+    },
+    {
+        "fields": {
+            "cartridge_id": "57",
+            "compound_id": 260,
+            "sort_value": 4
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 85
+    },
+    {
+        "fields": {
+            "cartridge_id": "59",
+            "compound_id": 234,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 86
+    },
+    {
+        "fields": {
+            "cartridge_id": "59",
+            "compound_id": 312,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 87
+    },
+    {
+        "fields": {
+            "cartridge_id": "59",
+            "compound_id": 317,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 88
+    },
+    {
+        "fields": {
+            "cartridge_id": "59",
+            "compound_id": 330,
+            "sort_value": 4
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 89
+    },
+    {
+        "fields": {
+            "cartridge_id": "59",
+            "compound_id": 341,
+            "sort_value": 5
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 90
+    },
+    {
+        "fields": {
+            "cartridge_id": "57",
+            "compound_id": 348,
+            "sort_value": 5
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 91
+    },
+    {
+        "fields": {
+            "cartridge_id": "57",
+            "compound_id": 349,
+            "sort_value": 6
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 92
+    },
+    {
+        "fields": {
+            "cartridge_id": "57",
+            "compound_id": 350,
+            "sort_value": 7
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 93
+    },
+    {
+        "fields": {
+            "cartridge_id": "37",
+            "compound_id": 234,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 94
+    },
+    {
+        "fields": {
+            "cartridge_id": "39",
+            "compound_id": 341,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 95
+    },
+    {
+        "fields": {
+            "cartridge_id": "46",
+            "compound_id": 330,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 96
+    },
+    {
+        "fields": {
+            "cartridge_id": "51",
+            "compound_id": 234,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 97
+    },
+    {
+        "fields": {
+            "cartridge_id": "51",
+            "compound_id": 312,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 98
+    },
+    {
+        "fields": {
+            "cartridge_id": "51",
+            "compound_id": 341,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 99
+    },
+    {
+        "fields": {
+            "cartridge_id": "51",
+            "compound_id": 317,
+            "sort_value": 5
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 100
+    },
+    {
+        "fields": {
+            "cartridge_id": "51",
+            "compound_id": 330,
+            "sort_value": 4
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 101
+    },
+    {
+        "fields": {
+            "cartridge_id": "43",
+            "compound_id": 230,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 102
+    },
+    {
+        "fields": {
+            "cartridge_id": "43",
+            "compound_id": 229,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 103
+    },
+    {
+        "fields": {
+            "cartridge_id": "28",
+            "compound_id": 230,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 104
+    },
+    {
+        "fields": {
+            "cartridge_id": "28",
+            "compound_id": 229,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 105
+    },
+    {
+        "fields": {
+            "cartridge_id": "47",
+            "compound_id": 305,
+            "sort_value": 5
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 106
+    },
+    {
+        "fields": {
+            "cartridge_id": "47",
+            "compound_id": 349,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 107
+    },
+    {
+        "fields": {
+            "cartridge_id": "47",
+            "compound_id": 309,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 108
+    },
+    {
+        "fields": {
+            "cartridge_id": "47",
+            "compound_id": 79,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 109
+    },
+    {
+        "fields": {
+            "cartridge_id": "47",
+            "compound_id": 94,
+            "sort_value": 4
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 110
+    },
+    {
+        "fields": {
+            "cartridge_id": "52",
+            "compound_id": 234,
+            "sort_value": 5
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 111
+    },
+    {
+        "fields": {
+            "cartridge_id": "52",
+            "compound_id": 341,
+            "sort_value": 3
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 112
+    },
+    {
+        "fields": {
+            "cartridge_id": "52",
+            "compound_id": 312,
+            "sort_value": 4
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 113
+    },
+    {
+        "fields": {
+            "cartridge_id": "52",
+            "compound_id": 317,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 114
+    },
+    {
+        "fields": {
+            "cartridge_id": "52",
+            "compound_id": 330,
+            "sort_value": 2
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 115
+    },
+    {
+        "fields": {
+            "cartridge_id": "72",
+            "compound_id": 312,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 116
+    },
+    {
+        "fields": {
+            "cartridge_id": "73",
+            "compound_id": 317,
+            "sort_value": 1
+        },
+        "model": "accio.cartridge_compound",
+        "pk": 117
+    }
+]
