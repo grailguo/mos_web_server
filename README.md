@@ -1,6 +1,9 @@
 # MOS Web Server
 
-Behold My Awesome Project!
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata --app users data
+python manage.py runserver
 
 [![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)

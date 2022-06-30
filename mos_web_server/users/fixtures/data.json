@@ -1,0 +1,210 @@
+[
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "系统管理员"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "谱库管理员"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 3,
+    "fields": {
+      "name": "谱库用户"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 4,
+    "fields": {
+      "name": "数据管理员"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 5,
+    "fields": {
+      "name": "数据用户"
+    }
+  },
+  {
+    "model": "users.organization",
+    "pk": 1,
+    "fields": {
+      "name": "purspec",
+      "updated": "2022-03-30 10:00:00.000000+00:00",
+      "created": "2022-03-30 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "users.organization",
+    "pk": 2,
+    "fields": {
+      "name": "customer",
+      "updated": "2022-03-30 10:00:00.000000+00:00",
+      "created": "2022-03-30 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "users.organization",
+    "pk": 3,
+    "fields": {
+      "name": "华山医院",
+      "updated": "2022-03-30 10:00:00.000000+00:00",
+      "created": "2022-03-30 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "users.organization",
+    "pk": 4,
+    "fields": {
+      "name": "加拿大",
+      "updated": "2022-03-30 10:00:00.000000+00:00",
+      "created": "2022-03-30 10:00:00.000000+00:00"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$2PLs0kGpciwEMtVrhEPvM0$zTriz3U0rnsproKTd7zSv18m0PpgXTuzoZTHsVxiSe4=",
+      "last_login": "2022-03-30 10:00:00.000000+00:00",
+      "is_superuser": 1,
+      "username": "superuser",
+      "email": "superuser@purspec.cn",
+      "is_staff": 1,
+      "is_active": 1,
+      "date_joined": "2022-03-30 10:00:00.000000+00:00",
+      "organization_id": null
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$Jtbx788E6thWnaGZ5pWsN7$KcGar2Pc+b/cSuR/Fd5Icp28Y1xkBlwjnmkGmMBkl48=",
+      "last_login": "2022-03-30 10:00:00.000000+00:00",
+      "is_superuser": 0,
+      "username": "purspec.admin",
+      "email": "",
+      "is_staff": 1,
+      "is_active": 1,
+      "date_joined": "2022-03-30 10:00:00.000000+00:00",
+      "organization_id": 1
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$ggRikj2z0uws1X74uABbNz$ZLFvrHZvBhOHhFSN+AzTGIQJBQjHrzAjHiRfzkCWZi8=",
+      "last_login": "2022-03-30 10:00:00.000000+00:00",
+      "is_superuser": 0,
+      "username": "purspec.manager",
+      "email": "",
+      "is_staff": 1,
+      "is_active": 1,
+      "date_joined": "2022-03-30 10:00:00.000000+00:00",
+      "organization_id": 1
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$WgVqQsYnn3jbhVUh13WeHg$/PKAZWCxkgnjgwZlwfSLvmc2vedm+OhqTr5MAwo0p+4=",
+      "last_login": "2022-03-30 10:00:00.000000+00:00",
+      "is_superuser": 0,
+      "username": "purspec.user",
+      "email": "",
+      "is_staff": 1,
+      "is_active": 1,
+      "date_joined": "2022-03-30 10:00:00.000000+00:00",
+      "organization_id": 1
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$C32vV5aZ24IwBKn5vsvHdf$DMWOUNThSyWCxr7/ewwHJFRF2+dc5LOdPqXENiRpwXA=",
+      "last_login": "2022-03-30 10:00:00.000000+00:00",
+      "is_superuser": 0,
+      "username": "customer.admin",
+      "email": "",
+      "is_staff": 1,
+      "is_active": 1,
+      "date_joined": "2022-03-30 10:00:00.000000+00:00",
+      "organization_id": 2
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$ogfhuLLgVSsKhL8XS70FAb$zHw2nSX74NkPwurhf+EH/4zwcp1Mq2898M9/AMAOm7Y=",
+      "last_login": "2022-03-30 10:00:00.000000+00:00",
+      "is_superuser": 0,
+      "username": "customer.manager",
+      "email": "",
+      "is_staff": 1,
+      "is_active": 1,
+      "date_joined": "2022-03-30 10:00:00.000000+00:00",
+      "organization_id": 2
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$4UPNG6ImKSSiZK6BoLEYRo$3hcxxlOALW5wf9fexr7mEi8An9Pt+RqnGSQS1CIfeBo=",
+      "last_login": "2022-03-30 10:00:00.000000+00:00",
+      "is_superuser": 0,
+      "username": "customer.user",
+      "email": "",
+      "is_staff": 1,
+      "is_active": 1,
+      "date_joined": "2022-03-30 10:00:00.000000+00:00",
+      "organization_id": 2
+    }
+  },
+  {
+    "model": "users.user_groups",
+    "pk": 1,
+    "fields": {
+      "user_id": 2,
+      "group_id": 1
+    }
+  },
+  {
+    "model": "users.user_groups",
+    "pk": 2,
+    "fields": {
+      "user_id": 3,
+      "group_id": 2
+    }
+  },
+  {
+    "model": "users.user_groups",
+    "pk": 3,
+    "fields": {
+      "user_id": 4,
+      "group_id": 1
+    }
+  },
+  {
+    "model": "users.user_groups",
+    "pk": 4,
+    "fields": {
+      "user_id": 5,
+      "group_id": 2
+    }
+  }
+]

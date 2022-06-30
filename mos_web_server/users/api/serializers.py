@@ -1,14 +1,37 @@
 from django.contrib.auth import get_user_model
+from django.contrib.auth.models import Group
 from rest_framework import serializers
+
+from mos_web_server.users.models import Organization
 
 User = get_user_model()
 
 
-class UserSerializer(serializers.ModelSerializer):
+class OrganizationSerializer(serializers.HyperlinkedModelSerializer):
+    activated = serializers.BooleanField(default=True, initial=True)
+
+    class Meta:
+        model = Organization
+        fields = '__all__'
+    pass
+
+
+class GroupSerializer(serializers.HyperlinkedModelSerializer):
+
+    class Meta:
+        model = Group
+        fields = ['url', 'name', ]
+
+    pass
+
+
+class UserSerializer(serializers.HyperlinkedModelSerializer):
+
     class Meta:
         model = User
-        fields = ["username", "name", "url"]
+        fields = ['url', 'username', 'first_name', 'last_name',
+                  'email', 'groups', 'is_staff', 'is_active',
+                  'last_login', 'date_joined', 'organization_id', ]
 
-        extra_kwargs = {
-            "url": {"view_name": "api:user-detail", "lookup_field": "username"}
-        }
+    pass
+
