@@ -4,6 +4,7 @@ from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 
 
+# Create your models here.
 class BaseModel(models.Model):
     objects = models.Manager
     description = models.TextField(blank=True, null=True, default='')

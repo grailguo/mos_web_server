@@ -18,6 +18,8 @@ crispy-bootstrap5==0.6  # https://github.com/django-crispy-forms/crispy-bootstra
 django-redis==5.2.0  # https://github.com/jazzband/django-redis
 django-filter==22.1  # https://github.com/carltongibson/django-filter/tree/main
 django-json-widget==1.1.1  # https://github.com/jmrivas86/django-json-widget
+django-admin-ordering==0.15.0  # https://github.com/matthiask/django-admin-ordering/
+django-sortedm2m==3.1.1  # https://github.com/jazzband/django-sortedm2m
 # Django REST Framework
 djangorestframework==3.13.1  # https://github.com/encode/django-rest-framework
 django-cors-headers==3.13.0 # https://github.com/adamchainz/django-cors-headers

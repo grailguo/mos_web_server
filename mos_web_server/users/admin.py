@@ -11,6 +11,7 @@ from mos_web_server.users.models import Organization
 User = get_user_model()
 
 
+# Register your models here.
 class BaseAdmin(admin.ModelAdmin):
     formfield_overrides = {
         JSONField: {'widget': JSONEditorWidget}

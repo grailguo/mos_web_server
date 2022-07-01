@@ -1,9 +1,36 @@
 # MOS Web Server
 
+cd mos_web_server
+python ../manage.py startapp erecto
+python ../manage.py startapp reparo
+python ../manage.py startapp accio
+python ../manage.py startapp flagrate
+
 python manage.py makemigrations
 python manage.py migrate
 python manage.py loaddata --app users data
 python manage.py runserver
+
+python manage.py loaddata --app users data
+python manage.py loaddata --app erecto data
+python manage.py loaddata --app reparo data
+
+python manage.py loaddata --app accio 101_cartridge.json
+python manage.py loaddata --app accio 102_compound.json
+python manage.py loaddata --app accio 103_compoundcodecounter.json
+python manage.py loaddata --app accio 104_cartridge_compound.json
+python manage.py loaddata --app accio 105_compoundtag.json
+python manage.py loaddata --app accio 106_compound_compound_tag.json
+python manage.py loaddata --app accio 107_experiment.json
+python manage.py loaddata --app accio 108_spectrumtag.json
+python manage.py loaddata --app accio 109_spectrum.json
+python manage.py loaddata --app accio 110_spectrum_spectrum_tag.json
+python manage.py loaddata --app accio 111_quantmethod.json
+python manage.py loaddata --app accio 112_quantmethodcodecounter.json
+python manage.py loaddata --app accio 113_cartridge_quant_method.json
+
+python manage.py loaddata --app flagrate data
+
 
 [![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)

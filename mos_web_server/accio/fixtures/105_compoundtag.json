@@ -1,0 +1,210 @@
+[
+    {
+        "fields": {
+            "activated": true,
+            "created": "2019-11-27 09:19:24.729010+00:00",
+            "deleted": false,
+            "description": "测试DDA Tier1实验组",
+            "name": "dda_test_1",
+            "organization_id": 1,
+            "updated": "2019-11-27 09:19:24.729010+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2019-11-27 09:19:50.690478+00:00",
+            "deleted": false,
+            "description": "测试DDA Tier1对照组",
+            "name": "dda_test_2",
+            "organization_id": 1,
+            "updated": "2019-11-27 09:19:50.690478+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2019-12-25 06:20:25.844871+00:00",
+            "deleted": false,
+            "description": "麻醉药品、精神药品(一类,二类)、非药用类麻醉药品和精神药品",
+            "name": "controlled_drugs",
+            "organization_id": 1,
+            "updated": "2019-12-25 06:20:25.844871+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2019-12-25 06:23:34.693908+00:00",
+            "deleted": false,
+            "description": "农药、鼠药、安眠药、生物碱、蘑菇毒",
+            "name": "poison",
+            "organization_id": 1,
+            "updated": "2019-12-25 06:23:34.693908+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2019-12-25 06:24:02.686890+00:00",
+            "deleted": false,
+            "description": "爆炸物",
+            "name": "explosive",
+            "organization_id": 1,
+            "updated": "2019-12-25 06:24:02.686890+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2019-12-26 00:53:24.690804+00:00",
+            "deleted": false,
+            "description": "20191230新疆demo target的4种物质",
+            "name": "XJtarget",
+            "organization_id": 1,
+            "updated": "2019-12-26 00:53:24.690804+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2020-03-25 05:41:08.799221+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "Fentanyl",
+            "organization_id": 1,
+            "updated": "2020-03-25 05:41:08.799221+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2020-03-26 10:05:49.662356+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "dev_test_2001",
+            "organization_id": 1,
+            "updated": "2020-03-26 10:05:49.662356+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2020-03-26 10:06:28.675273+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "dev_test_2002",
+            "organization_id": 1,
+            "updated": "2020-03-26 10:06:28.675273+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2020-03-26 10:07:51.719618+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "dev_test_2003",
+            "organization_id": 1,
+            "updated": "2020-03-26 10:07:51.719618+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2020-05-31 09:24:11.694145+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "dev_test_pos_only",
+            "organization_id": 1,
+            "updated": "2020-05-31 09:24:11.694145+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2020-05-31 09:25:10.706556+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "dev_test_neg_only",
+            "organization_id": 1,
+            "updated": "2020-05-31 09:25:10.706556+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2020-07-22 08:54:43.761752+00:00",
+            "deleted": false,
+            "description": "用于产品性能测试的质控样",
+            "name": "OQC",
+            "organization_id": 1,
+            "updated": "2020-07-22 08:54:43.761752+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2020-10-30 03:10:21.683521+00:00",
+            "deleted": false,
+            "description": "用于demo的非原本数据库中的样品",
+            "name": "demo",
+            "organization_id": 1,
+            "updated": "2020-10-30 03:10:21.683521+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2021-07-22 08:08:22.043328+00:00",
+            "deleted": false,
+            "description": "803收录的卡西酮类物质谱库信息待完善",
+            "name": "Cathinones(803-unreleased)",
+            "organization_id": 1,
+            "updated": "2021-07-22 08:08:22.043328+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2021-08-09 08:51:02.272246+00:00",
+            "deleted": false,
+            "description": "依据经验修改过早期数据的ISO能量和CID能量",
+            "name": "modified ISO and CID energy",
+            "organization_id": 1,
+            "updated": "2021-08-09 08:51:02.272246+00:00"
+        },
+        "model": "accio.compoundtag",
+        "pk": 22
+    }
+]

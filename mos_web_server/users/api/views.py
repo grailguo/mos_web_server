@@ -1,9 +1,6 @@
 from django.contrib.auth import get_user_model
 from django.contrib.auth.models import Group
-from rest_framework import status, viewsets, permissions
-from rest_framework.decorators import action
-from rest_framework.mixins import ListModelMixin, RetrieveModelMixin, UpdateModelMixin
-from rest_framework.response import Response
+from rest_framework import viewsets, permissions
 
 from .filters import OrganizationFilter
 from .serializers import UserSerializer, OrganizationSerializer, GroupSerializer
@@ -12,6 +9,7 @@ from ..models import Organization
 User = get_user_model()
 
 
+# Create your api views here.
 class OrganizationViewSet(viewsets.ModelViewSet):
     queryset = Organization.objects.all().order_by('id')
     serializer_class = OrganizationSerializer

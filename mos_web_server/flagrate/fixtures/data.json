@@ -1,0 +1,109 @@
+[
+  {
+    "model": "flagrate.datatag",
+    "pk": 1,
+    "fields": {
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "name": "DRE",
+      "description": "",
+      "organization_id": null
+    }
+  },
+  {
+    "model": "flagrate.datatag",
+    "pk": 2,
+    "fields": {
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "name": "CID_APM_H",
+      "description": "",
+      "organization_id": null
+    }
+  },
+  {
+    "model": "flagrate.datatag",
+    "pk": 3,
+    "fields": {
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "name": "CID_APM_L",
+      "description": "",
+      "organization_id": null
+    }
+  },
+  {
+    "model": "flagrate.datatag",
+    "pk": 4,
+    "fields": {
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "name": "CID_APM",
+      "description": "",
+      "organization_id": null
+    }
+  },
+  {
+    "model": "flagrate.datatag",
+    "pk": 5,
+    "fields": {
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "name": "Pressure",
+      "description": "",
+      "organization_id": null
+    }
+  },
+  {
+    "model": "flagrate.datatag",
+    "pk": 6,
+    "fields": {
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "name": "CID_DELAY",
+      "description": "",
+      "organization_id": null
+    }
+  },
+  {
+    "model": "flagrate.datatag",
+    "pk": 7,
+    "fields": {
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "name": "利血平",
+      "description": "",
+      "organization_id": null
+    }
+  },
+  {
+    "model": "flagrate.datatag",
+    "pk": 8,
+    "fields": {
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "name": "氯霉素",
+      "description": "",
+      "organization_id": null
+    }
+  },
+  {
+    "model": "flagrate.case",
+    "pk": 1,
+    "fields": {
+      "updated": "2022-03-25 10:00:00.000000+00:00",
+      "created": "2022-03-25 10:00:00.000000+00:00",
+      "sample_amount": 1000.000000,
+      "description": "",
+      "algorithm_parameters": {},
+      "analysis_parameters": {},
+      "config_parameters": {},
+      "expected_result": {},
+      "cartridge_id": 1,
+      "eluent_id": 1,
+      "matrix_id": 1,
+      "organization_id": null,
+      "sample_unit_id": 2
+    }
+  }
+]

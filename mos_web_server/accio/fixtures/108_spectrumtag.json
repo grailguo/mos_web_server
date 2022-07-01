@@ -1,0 +1,67 @@
+[
+    {
+        "fields": {
+            "activated": true,
+            "created": "2022-03-25 10:00:00.000000+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "MS2_DDA",
+            "organization_id": 1,
+            "updated": "2022-03-25 10:00:00.000000+00:00"
+        },
+        "model": "accio.spectrumtag",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2022-03-25 10:00:00.000000+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "MS2_CID_AMP_LOW",
+            "organization_id": 1,
+            "updated": "2022-03-25 10:00:00.000000+00:00"
+        },
+        "model": "accio.spectrumtag",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2022-03-25 10:00:00.000000+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "MS2_CID_AMP_MEDIUM",
+            "organization_id": 1,
+            "updated": "2022-03-25 10:00:00.000000+00:00"
+        },
+        "model": "accio.spectrumtag",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2022-03-25 10:00:00.000000+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "MS2_CID_AMP_HIGH",
+            "organization_id": 1,
+            "updated": "2022-03-25 10:00:00.000000+00:00"
+        },
+        "model": "accio.spectrumtag",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "activated": true,
+            "created": "2022-03-25 10:00:00.000000+00:00",
+            "deleted": false,
+            "description": "",
+            "name": "MS3",
+            "organization_id": 1,
+            "updated": "2022-03-25 10:00:00.000000+00:00"
+        },
+        "model": "accio.spectrumtag",
+        "pk": 5
+    }
+]

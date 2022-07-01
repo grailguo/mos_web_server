@@ -1,0 +1,14 @@
+[
+    {
+        "fields": {
+        },
+        "model": "accio.quantmethodcodecounter",
+        "pk": 1
+    },
+    {
+        "fields": {
+        },
+        "model": "accio.quantmethodcodecounter",
+        "pk": 2
+    }
+]
