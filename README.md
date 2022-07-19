@@ -58,6 +58,26 @@ python manage.py loaddata --app accio 113_cartridge_quant_method.json
 python manage.py loaddata --app flagrate data
 
 
+docker-compose -f production.yml run --rm django python manage.py migrate
+docker-compose -f production.yml run --rm django python manage.py loaddata --app users data
+docker-compose -f production.yml run --rm django python manage.py loaddata --app erecto data
+docker-compose -f production.yml run --rm django python manage.py loaddata --app reparo data
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 101_cartridge.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 102_compound.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 103_compoundcodecounter.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 104_cartridge_compound.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 105_compoundtag.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 106_compound_compoundtag.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 107_experiment.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 108_spectrumtag.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 109_spectrum.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 110_spectrum_spectrumtag.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 111_quantmethod.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 112_quantmethodcodecounter.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app accio 113_cartridge_quant_method.json
+docker-compose -f production.yml run --rm django python manage.py loaddata --app flagrate data
+
+
 [![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 

@@ -25,6 +25,7 @@ services:
       dockerfile: ./compose/production/mysql/Dockerfile
     image: mos_web_server_production_mysql
     container_name: mysql
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_bin
     volumes:
       - production_mysql_data:/var/lib/mysql:z
       - production_mysql_data_backups:/backups:z
