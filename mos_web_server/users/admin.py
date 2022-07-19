@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth import admin as auth_admin
 from django.contrib.auth import get_user_model
-from django.db.models import JSONField
+from django.db.models import JSONField, Q
 from django.utils.translation import gettext_lazy as _
 from django_json_widget.widgets import JSONEditorWidget
 
@@ -19,12 +19,13 @@ class BaseAdmin(admin.ModelAdmin):
 
     save_as = True
 
-    def get_queryset(self, request):
-        if request.user.organization is None:
-            queryset = super().get_queryset(request)
-        else:
-            queryset = super().get_queryset(request).filter(organization=request.user.organization)
-        return queryset
+    # def get_queryset(self, request):
+    #     if request.user.organization is None:
+    #         queryset = super().get_queryset(request)
+    #     else:
+    #         queryset = super().get_queryset(request).filter(
+    #             Q(organization=request.user.organization.pk) | Q(organization=None))
+    #     return queryset
 
     pass
 

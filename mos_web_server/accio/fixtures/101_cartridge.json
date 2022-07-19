@@ -13,6 +13,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:27:41.696059+00:00"
         },
         "model": "accio.cartridge",
@@ -32,6 +33,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3500,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:28:24.689304+00:00"
         },
         "model": "accio.cartridge",
@@ -51,6 +53,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:28:46.688355+00:00"
         },
         "model": "accio.cartridge",
@@ -70,6 +73,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:29:51.791109+00:00"
         },
         "model": "accio.cartridge",
@@ -89,6 +93,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:31:24.815478+00:00"
         },
         "model": "accio.cartridge",
@@ -108,6 +113,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:32:12.760852+00:00"
         },
         "model": "accio.cartridge",
@@ -127,6 +133,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:33:04.702993+00:00"
         },
         "model": "accio.cartridge",
@@ -146,6 +153,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:33:49.725316+00:00"
         },
         "model": "accio.cartridge",
@@ -165,6 +173,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:34:20.706579+00:00"
         },
         "model": "accio.cartridge",
@@ -184,6 +193,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:34:52.691881+00:00"
         },
         "model": "accio.cartridge",
@@ -203,6 +213,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:35:33.408670+00:00"
         },
         "model": "accio.cartridge",
@@ -222,6 +233,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:36:31.776271+00:00"
         },
         "model": "accio.cartridge",
@@ -241,6 +253,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:37:37.790327+00:00"
         },
         "model": "accio.cartridge",
@@ -260,6 +273,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:44:49.715474+00:00"
         },
         "model": "accio.cartridge",
@@ -279,6 +293,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:45:17.691306+00:00"
         },
         "model": "accio.cartridge",
@@ -298,6 +313,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:46:02.683951+00:00"
         },
         "model": "accio.cartridge",
@@ -317,6 +333,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:46:47.720519+00:00"
         },
         "model": "accio.cartridge",
@@ -336,6 +353,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:55:01.257138+00:00"
         },
         "model": "accio.cartridge",
@@ -355,6 +373,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:56:02.742358+00:00"
         },
         "model": "accio.cartridge",
@@ -374,6 +393,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:58:00.924717+00:00"
         },
         "model": "accio.cartridge",
@@ -393,6 +413,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 03:58:59.687798+00:00"
         },
         "model": "accio.cartridge",
@@ -412,6 +433,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 04:00:48.706210+00:00"
         },
         "model": "accio.cartridge",
@@ -431,6 +453,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 04:01:42.693301+00:00"
         },
         "model": "accio.cartridge",
@@ -450,6 +473,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 04:03:33.748468+00:00"
         },
         "model": "accio.cartridge",
@@ -469,6 +493,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 04:03:49.782522+00:00"
         },
         "model": "accio.cartridge",
@@ -488,6 +513,7 @@
             "source_id": 3,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 04:04:23.686099+00:00"
         },
         "model": "accio.cartridge",
@@ -507,6 +533,7 @@
             "source_id": 3,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-11-25 04:04:43.829402+00:00"
         },
         "model": "accio.cartridge",
@@ -526,6 +553,7 @@
             "source_id": 1,
             "spray_voltage_neg": 4500,
             "spray_voltage_pos": 4500,
+            "udi_di": "06975328690018",
             "updated": "2019-12-03 03:36:14.696474+00:00"
         },
         "model": "accio.cartridge",
@@ -545,6 +573,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-12-20 05:47:10.877320+00:00"
         },
         "model": "accio.cartridge",
@@ -564,6 +593,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-12-20 06:05:53.744607+00:00"
         },
         "model": "accio.cartridge",
@@ -583,6 +613,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-12-20 06:09:21.843802+00:00"
         },
         "model": "accio.cartridge",
@@ -602,6 +633,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-12-26 02:46:22.807822+00:00"
         },
         "model": "accio.cartridge",
@@ -621,6 +653,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2019-12-26 02:48:12.027884+00:00"
         },
         "model": "accio.cartridge",
@@ -640,6 +673,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-11 06:55:31.668772+00:00"
         },
         "model": "accio.cartridge",
@@ -659,6 +693,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-11 06:56:32.977075+00:00"
         },
         "model": "accio.cartridge",
@@ -678,6 +713,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-11 06:58:27.690783+00:00"
         },
         "model": "accio.cartridge",
@@ -697,6 +733,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-11 06:59:21.721342+00:00"
         },
         "model": "accio.cartridge",
@@ -716,6 +753,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-11 07:01:32.023815+00:00"
         },
         "model": "accio.cartridge",
@@ -735,6 +773,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-11 07:02:21.639543+00:00"
         },
         "model": "accio.cartridge",
@@ -754,6 +793,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-11 07:03:14.719703+00:00"
         },
         "model": "accio.cartridge",
@@ -773,6 +813,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-11 07:04:06.706801+00:00"
         },
         "model": "accio.cartridge",
@@ -792,6 +833,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-11 07:05:57.117307+00:00"
         },
         "model": "accio.cartridge",
@@ -811,6 +853,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-25 06:35:29.798305+00:00"
         },
         "model": "accio.cartridge",
@@ -830,6 +873,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:46:40.693421+00:00"
         },
         "model": "accio.cartridge",
@@ -849,6 +893,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:48:13.724851+00:00"
         },
         "model": "accio.cartridge",
@@ -868,6 +913,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:49:36.712260+00:00"
         },
         "model": "accio.cartridge",
@@ -887,6 +933,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:50:19.768664+00:00"
         },
         "model": "accio.cartridge",
@@ -906,6 +953,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:51:10.696296+00:00"
         },
         "model": "accio.cartridge",
@@ -925,6 +973,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:52:32.849517+00:00"
         },
         "model": "accio.cartridge",
@@ -944,6 +993,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:53:23.764403+00:00"
         },
         "model": "accio.cartridge",
@@ -963,6 +1013,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:54:22.688235+00:00"
         },
         "model": "accio.cartridge",
@@ -982,6 +1033,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:55:10.620476+00:00"
         },
         "model": "accio.cartridge",
@@ -1001,6 +1053,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:55:58.693131+00:00"
         },
         "model": "accio.cartridge",
@@ -1020,6 +1073,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:57:29.842807+00:00"
         },
         "model": "accio.cartridge",
@@ -1039,6 +1093,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-03-26 09:58:24.832209+00:00"
         },
         "model": "accio.cartridge",
@@ -1058,6 +1113,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-05-19 06:07:52.736882+00:00"
         },
         "model": "accio.cartridge",
@@ -1077,6 +1133,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-05-31 09:30:44.885603+00:00"
         },
         "model": "accio.cartridge",
@@ -1096,6 +1153,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-07-22 09:06:46.744325+00:00"
         },
         "model": "accio.cartridge",
@@ -1115,6 +1173,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-07-22 09:07:16.625071+00:00"
         },
         "model": "accio.cartridge",
@@ -1134,6 +1193,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-10-20 02:18:51.468992+00:00"
         },
         "model": "accio.cartridge",
@@ -1153,6 +1213,7 @@
             "source_id": 3,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 2500,
+            "udi_di": "",
             "updated": "2020-11-27 03:28:20.295163+00:00"
         },
         "model": "accio.cartridge",
@@ -1172,6 +1233,7 @@
             "source_id": 3,
             "spray_voltage_neg": 2500,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-11-27 03:29:49.054174+00:00"
         },
         "model": "accio.cartridge",
@@ -1191,6 +1253,7 @@
             "source_id": 3,
             "spray_voltage_neg": 2500,
             "spray_voltage_pos": 2500,
+            "udi_di": "",
             "updated": "2020-11-27 03:31:02.278216+00:00"
         },
         "model": "accio.cartridge",
@@ -1210,6 +1273,7 @@
             "source_id": 3,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 2500,
+            "udi_di": "",
             "updated": "2020-12-10 01:46:11.239030+00:00"
         },
         "model": "accio.cartridge",
@@ -1229,6 +1293,7 @@
             "source_id": 3,
             "spray_voltage_neg": 2500,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2020-12-10 01:48:05.507208+00:00"
         },
         "model": "accio.cartridge",
@@ -1248,6 +1313,7 @@
             "source_id": 3,
             "spray_voltage_neg": 2500,
             "spray_voltage_pos": 2500,
+            "udi_di": "",
             "updated": "2020-12-10 01:49:12.539851+00:00"
         },
         "model": "accio.cartridge",
@@ -1267,6 +1333,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2021-03-03 02:17:58.452444+00:00"
         },
         "model": "accio.cartridge",
@@ -1286,6 +1353,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2021-03-03 02:21:55.945891+00:00"
         },
         "model": "accio.cartridge",
@@ -1305,6 +1373,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2021-05-17 05:36:41.184071+00:00"
         },
         "model": "accio.cartridge",
@@ -1324,6 +1393,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2021-05-17 05:37:07.744992+00:00"
         },
         "model": "accio.cartridge",
@@ -1343,6 +1413,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2021-05-17 05:37:54.933508+00:00"
         },
         "model": "accio.cartridge",
@@ -1362,6 +1433,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2021-05-17 05:39:41.563714+00:00"
         },
         "model": "accio.cartridge",
@@ -1381,6 +1453,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2021-08-25 09:22:39.609266+00:00"
         },
         "model": "accio.cartridge",
@@ -1400,6 +1473,7 @@
             "source_id": 1,
             "spray_voltage_neg": 3000,
             "spray_voltage_pos": 4500,
+            "udi_di": "",
             "updated": "2021-08-25 09:24:07.461131+00:00"
         },
         "model": "accio.cartridge",

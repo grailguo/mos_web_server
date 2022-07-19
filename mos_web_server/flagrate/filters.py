@@ -6,6 +6,6 @@ from mos_web_server.flagrate.models import Data
 class DataFilter(filters.FilterSet):
     class Meta:
         model = Data
-        fields = ('case__id', 'device__sn', 'data_tags__name',)
+        fields = ('case__id', 'device__sn', 'datatag__name',)
 
     pass

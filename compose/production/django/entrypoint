@@ -6,6 +6,7 @@ set -o nounset
 
 
 
+
 if [ -z "${MYSQL_USER}" ]; then
     base_mysql_image_default_user='root'
     export MYSQL_USER="${base_mysql_image_default_user}"

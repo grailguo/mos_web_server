@@ -13,16 +13,17 @@ from mos_web_server.users.admin import BaseAdmin
 @admin.register(Cartridge)
 class CartridgeAdmin(BaseAdmin):
     ordering = ['id']
-    list_display = ('id', 'code', 'source', 'polarity', 'analysis_type', 'organization', 'activated', 'updated',)
-    list_display_links = ['id', ]
-    search_fields = ('id', 'code', 'analysis_type__name__icontains', 'description',)
-    search_help_text = 'Search: id, code, analysis_type, description'
+    list_display = (
+        'code', 'udi_di', 'source', 'polarity', 'analysis_type', 'organization', 'activated', 'updated',)
+    list_display_links = ['code', ]
+    search_fields = ('id', 'code', 'udi_di', 'analysis_type__name__icontains', 'description',)
+    search_help_text = 'Search: id, code, udi_di, analysis_type, description'
 
     form = CartridgeForm
 
     fieldsets = (
         (None, {
-            'fields': (('code', 'source', 'polarity'), ('analysis_type', 'organization'),
+            'fields': (('code', 'udi_di', 'source', 'polarity'), ('analysis_type', 'organization'),
                        ('pre_spary_time', 'spray_voltage_pos', 'spray_voltage_neg'), 'description', 'activated',)
         }),
         (_('targets'), {
@@ -31,23 +32,23 @@ class CartridgeAdmin(BaseAdmin):
         }),
         (_('dda tags'), {
             'classes': ('collapse',),
-            'fields': ('compound_tag',),
+            'fields': ('compoundtag',),
         }),
         (_('quant methods'), {
             'classes': ('collapse',),
-            'fields': ('quant_method',),
+            'fields': ('quantmethod',),
         }),
     )
     add_fieldsets = (
         (None, {
-            'fields': (('code', 'source', 'polarity'), ('analysis_type', 'organization'),
+            'fields': (('code', 'udi_di', 'source', 'polarity'), ('analysis_type', 'organization'),
                        ('pre_spary_time', 'spray_voltage_pos', 'spray_voltage_neg'), 'description', 'activated',)
         }),
     )
 
     targeted_fieldsets = (
         (None, {
-            'fields': (('code', 'source', 'polarity'), ('analysis_type', 'organization'),
+            'fields': (('code', 'udi_di', 'source', 'polarity'), ('analysis_type', 'organization'),
                        ('pre_spary_time', 'spray_voltage_pos', 'spray_voltage_neg'), 'description', 'activated',)
         }),
         (_('targets'), {
@@ -58,28 +59,28 @@ class CartridgeAdmin(BaseAdmin):
 
     dda_fieldsets = (
         (None, {
-            'fields': (('code', 'source', 'polarity'), ('analysis_type', 'organization'),
+            'fields': (('code', 'udi_di', 'source', 'polarity'), ('analysis_type', 'organization'),
                        ('pre_spary_time', 'spray_voltage_pos', 'spray_voltage_neg'), 'description', 'activated',)
         }),
         (_('dda tags'), {
             # 'classes': ('collapse',),
-            'fields': ('compound_tag',),
+            'fields': ('compoundtag',),
         })
     )
 
     targeted_quant_fieldsets = (
         (None, {
-            'fields': (('code', 'source', 'polarity'), ('analysis_type', 'organization'),
+            'fields': (('code', 'udi_di', 'source', 'polarity'), ('analysis_type', 'organization'),
                        ('pre_spary_time', 'spray_voltage_pos', 'spray_voltage_neg'), 'description', 'activated',)
         }),
         (_('quant methods'), {
             # 'classes': ('collapse',),
-            'fields': ('quant_method',),
+            'fields': ('quantmethod',),
         }),
     )
 
     filter_horizontal = (
-        'compound_tag',
+        'compoundtag',
     )
 
     def get_fieldsets(self, request, obj=None):
@@ -109,6 +110,7 @@ class SpectrumInline(admin.TabularInline):
 
 class SpectrumNoChangeInline(OrderableAdmin, SpectrumInline):
     def has_add_permission(self, request, obj=None):
+        print(self.model)
         return False
 
     pass
@@ -134,7 +136,8 @@ class CompoundTagAdmin(TagLikeAdmin):
 @admin.register(Compound)
 class CompoundAdmin(BaseAdmin):
     ordering = ['id']
-    list_display = ('id', 'code', 'name_cn', 'name_en', 'cas', 'mass', 'formula', 'activated', 'updated')
+    list_display = ('code', 'name_cn', 'name_en', 'cas', 'mass', 'formula', 'activated', 'updated')
+    list_display_links = ['code', ]
     search_fields = ('id', 'code', 'name_cn', 'name_en', 'cas', 'mass', 'formula')
     search_help_text = 'Search: id, code, name_cn, name_en, cas, mass, formula'
 
@@ -184,7 +187,7 @@ class SpectrumTagAdmin(TagLikeAdmin):
 @admin.register(Spectrum)
 class SpectrumAdmin(BaseAdmin):
     ordering = ['id']
-    list_display = ('id', 'compound', 'precursor_mz', 'method_type', 'polarity', 'peaks', 'average', 'activated',)
+    list_display = ('id', 'compound', 'precursor_mz', 'method_type', 'polarity', 'peaks', 'average', 'spectrum_tags', 'activated',)
     fieldsets = (
         (None, {
             'fields': (
@@ -194,7 +197,7 @@ class SpectrumAdmin(BaseAdmin):
                 ('average', 'cid_q', 'cid_amp',),
                 ('iso1_amp', 'iso2_amp',),
                 ('scan_mass_start', 'scan_mass_end',),
-                'peaks', 'spectrum_tag',)
+                'peaks', 'spectrumtag',)
         }),
         (_('detail description'), {
             'classes': ('collapse',),
@@ -203,6 +206,8 @@ class SpectrumAdmin(BaseAdmin):
                 'extra_params',),
         }),
     )
+    # list_filter = ('method_type', 'polarity', 'spectrumtag',)
+
     pass
 
 

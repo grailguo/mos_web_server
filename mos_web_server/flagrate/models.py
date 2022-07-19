@@ -29,10 +29,12 @@ class Case(BaseModel):
     sample_amount = models.DecimalField(max_digits=12, decimal_places=6)
     sample_unit = models.ForeignKey(Unit, on_delete=models.CASCADE)
     eluent = models.ForeignKey(Eluent, on_delete=models.CASCADE)
+    algorithm_data = models.JSONField(blank=True, null=False, default=dict)
     algorithm_parameters = models.JSONField(blank=True, null=False, default=dict)
     analysis_parameters = models.JSONField(blank=True, null=False, default=dict)
+    quant_methods = models.JSONField(blank=True, null=False, default=dict)
     config_parameters = models.JSONField(blank=True, null=False, default=dict)
-    expected_result = models.JSONField(blank=True, null=False, default=dict)
+    expected_result = models.JSONField(blank=True, null=False, default=list)
 
     def case_code(self):
         return str('CASE_#{}').format(self.pk)
@@ -76,20 +78,32 @@ class Substance(BaseModel):
 class Data(BaseModel):
     organization = models.ForeignKey(Organization, null=True, blank=True, on_delete=models.SET_NULL)
     case = models.ForeignKey(Case, on_delete=models.CASCADE)
-    mrzfile = models.FileField(upload_to='uploads/mrzfiles/%Y/%m/%d/%H/%M/%S/', max_length=1024, blank=True, default='')
     device = models.ForeignKey(Device, on_delete=models.CASCADE)
-    data_info = models.JSONField(blank=True, null=False, default=dict)
-    result = models.JSONField(blank=True, null=False, default=dict)
+    mrzfile = models.FileField(upload_to='uploads/mrzfiles/%Y/%m/%d/%H/%M/%S/', max_length=1024, blank=True, default='')
     status = models.BooleanField(default=True)
-    data_tags = models.ManyToManyField(DataTag, )
+    dbfile = models.FileField(upload_to='uploads/dbfiles/%Y/%m/%d/%H/%M/%S/', max_length=1024, blank=True, default='')
+    db_version = models.CharField(max_length=16, blank=True, null=True, default='')
+    expected_result = models.JSONField(blank=True, null=False, default=list)
+    analysis_result = models.JSONField(blank=True, null=False, default=list)
+    datatag = models.ManyToManyField(DataTag, blank=True, default='')
+    neg_compound = models.ManyToManyField(Compound, related_name="data_neg_compound", blank=True, default='')
+    pos_compound = models.ManyToManyField(Compound, related_name="data_pos_compound", blank=True, default='')
 
     def __str__(self):
         return self.mrzfile.name
 
-    def data_tag_list(self):
-        return ', '.join([a.name for a in self.data_tags.all()])
+    def data_tags(self):
+        return ', '.join([a.name for a in self.datatag.all()])
+
+    def neg_compounds(self):
+        return ', '.join([a.code for a in self.neg_compound.all()])
+
+    def pos_compounds(self):
+        return ', '.join([a.code for a in self.pos_compound.all()])
 
     data_tags.short_description = _('data tags')
+    neg_compounds.short_description = _('neg compounds')
+    pos_compounds.short_description = _('pos compounds')
 
     class Meta:
         verbose_name = _('data')

@@ -46,3 +46,5 @@ services:
 
   redis:
     image: redis:6
+    container_name: redis
+    command: redis-server --appendonly yes --requirepass purspec1005B

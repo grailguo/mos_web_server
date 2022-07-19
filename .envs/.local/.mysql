@@ -2,7 +2,7 @@
 # ------------------------------------------------------------------------------
 MYSQL_HOST=mysql
 MYSQL_PORT=3306
-MYSQL_DATABASE=mos
+MYSQL_DATABASE=mosdb
 MYSQL_USER=mos
 MYSQL_PASSWORD=purspec1005B
 MYSQL_ROOT_PASSWORD=purspec1005B

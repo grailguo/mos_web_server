@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
 # Serializers define the API representation.
+from mos_web_server.accio.api.serializers import CompoundSerializer
 from mos_web_server.flagrate.models import DataTag, Substance, Case, Data
 
 
@@ -38,10 +39,12 @@ class CaseSerializer(serializers.HyperlinkedModelSerializer):
     eluent_name = serializers.ReadOnlyField(source='eluent.name', )
     sample_unit_name = serializers.ReadOnlyField(source='sample_unit.name', )
     organization_name = serializers.ReadOnlyField(source='organization.name', allow_null=True, )
+    algorithm_data = serializers.JSONField(default=dict, initial=dict)
     algorithm_parameters = serializers.JSONField(default=dict, initial=dict)
     analysis_parameters = serializers.JSONField(default=dict, initial=dict)
+    quant_methods = serializers.JSONField(default=dict, initial=dict)
     config_parameters = serializers.JSONField(default=dict, initial=dict)
-    expected_result = serializers.JSONField(default=dict, initial=dict)
+    expected_result = serializers.JSONField(default=list, initial=list)
 
     class Meta:
         model = Case
@@ -78,7 +81,8 @@ class DataSerializer(serializers.HyperlinkedModelSerializer):
     case_id = serializers.ReadOnlyField(source='case.id', )
     device_sn = serializers.ReadOnlyField(source='device.sn', )
     data_info = serializers.JSONField(default=dict, initial=dict)
-    result = serializers.JSONField(default=dict, initial=dict)
+    expected_result = serializers.JSONField(default=dict, initial=dict)
+    analysis_result = serializers.JSONField(default=dict, initial=dict)
 
     class Meta:
         model = Data
@@ -93,7 +97,10 @@ class DataWithTagSerializer(serializers.HyperlinkedModelSerializer):
     device_sn = serializers.ReadOnlyField(source='device.sn', )
     data_tags = DataTagSerializer(many=True, required=False, allow_null=True)
     data_info = serializers.JSONField(default=dict, initial=dict)
-    result = serializers.JSONField(default=dict, initial=dict)
+    expected_result = serializers.JSONField(default=dict, initial=dict)
+    analysis_result = serializers.JSONField(default=dict, initial=dict)
+    neg_compounds = CompoundSerializer(many=True, required=False, allow_null=True)
+    pos_compounds = CompoundSerializer(many=True, required=False, allow_null=True)
 
     class Meta:
         model = Data

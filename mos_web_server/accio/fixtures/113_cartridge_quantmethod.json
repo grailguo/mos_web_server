@@ -5,7 +5,7 @@
             "quantmethod_id": 1,
             "sort_value": 1
         },
-        "model": "accio.cartridge_quant_method",
+        "model": "accio.cartridge_quantmethod",
         "pk": 1
     },
     {
@@ -14,7 +14,7 @@
             "quantmethod_id": 2,
             "sort_value": 2
         },
-        "model": "accio.cartridge_quant_method",
+        "model": "accio.cartridge_quantmethod",
         "pk": 2
     }
 ]

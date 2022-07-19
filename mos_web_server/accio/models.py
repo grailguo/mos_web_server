@@ -10,16 +10,22 @@ from mos_web_server.users.models import BaseModel, Organization
 
 
 # Create your models here.
-class Polarity(models.TextChoices):
+class PolarityChoices(models.TextChoices):
     POLARITY_NEG = 'NEG', _('NEG')
     POLARITY_POS = 'POS', _('POS')
     POLARITY_ALL = 'ALL', _('ALL')
     pass
 
 
-class QuantType(models.TextChoices):
+class QuantTypeChoices(models.TextChoices):
     QUANT_TYPE_IS = 'IS', _('IS')
     QUANT_TYPE_ES = 'ES', _('ES')
+    pass
+
+
+class UDIDIChoices(models.TextChoices):
+    UDIDI_NONE = '', _('NONE')
+    UDIDI_2_HG = '06975328690018', _('06975328690018 (2-HG)')
     pass
 
 
@@ -66,13 +72,17 @@ class Compound(BaseModel):
     safety_data_sheet = models.FileField(upload_to='uploads/safety_data_sheet/%Y/%Y/%m/%d/%H/%M/%S/',
                                          max_length=1024, blank=True, default='')
     extra_data = models.JSONField(blank=True, null=False, default=dict)
-    compound_tag = models.ManyToManyField(CompoundTag, )
+    compoundtag = models.ManyToManyField(CompoundTag, )
 
     def __str__(self):
         return '{}-({})'.format(self.code, self.name_cn)
 
+    __casts__ = {
+        "mass": "float"
+    }
+
     def compound_tags(self):
-        return ', '.join([a.name for a in self.compound_tag.all()])
+        return ', '.join([a.name for a in self.compoundtag.all()])
 
     compound_tags.short_description = _('compound tags')
 
@@ -120,7 +130,7 @@ class Spectrum(OrderableModel, BaseModel):
     compound = models.ForeignKey(Compound, on_delete=models.CASCADE)
     precursor_mz = models.DecimalField(max_digits=12, decimal_places=6)
     method_type = models.ForeignKey(MethodType, on_delete=models.CASCADE)
-    polarity = models.TextField(choices=Polarity.choices)
+    polarity = models.TextField(choices=PolarityChoices.choices)
     cid_q = models.DecimalField(max_digits=12, decimal_places=6)
     cid_amp = models.DecimalField(max_digits=12, decimal_places=6)
     inj_lmco_mz = models.PositiveSmallIntegerField(
@@ -137,14 +147,14 @@ class Spectrum(OrderableModel, BaseModel):
         default=50, validators=[MinValueValidator(0), MaxValueValidator(1000)])
     scan_mass_end = models.PositiveSmallIntegerField(
         default=1000, validators=[MinValueValidator(0), MaxValueValidator(5000)])
-    spectrum_tag = models.ManyToManyField(SpectrumTag, )
+    spectrumtag = models.ManyToManyField(SpectrumTag, )
 
     def save(self, *args, **kwargs):
         self.compound = self.experiment.compound
         super().save(*args, **kwargs)
 
     def spectrum_tags(self):
-        return ', '.join([a.name for a in self.spectrum_tag.all()])
+        return ', '.join([a.name for a in self.spectrumtag.all()])
 
     spectrum_tags.short_description = _('spectrum tags')
 
@@ -172,7 +182,7 @@ def next_quant_method_code():
 class QuantMethod(BaseModel):
     organization = models.ForeignKey(Organization, null=True, blank=True, on_delete=models.SET_NULL)
     code = models.CharField(max_length=6, unique=True)
-    quant_type = models.TextField(choices=QuantType.choices, blank=False, null=False, )
+    quant_type = models.TextField(choices=QuantTypeChoices.choices, blank=False, null=False, )
     target_spectrum = models.ForeignKey(Spectrum, related_name='target_spectrum', on_delete=models.CASCADE)
     in_std_spectrum = models.ForeignKey(Spectrum, related_name='in_std_spectrum', blank=True, null=True,
                                         on_delete=models.CASCADE)
@@ -190,15 +200,16 @@ class QuantMethod(BaseModel):
 class Cartridge(BaseModel):
     organization = models.ForeignKey(Organization, null=True, blank=True, on_delete=models.CASCADE)
     code = models.CharField(max_length=128, unique=True)
+    udi_di = models.CharField(max_length=14, choices=UDIDIChoices.choices, null=True, blank=True, default='')
     source = models.ForeignKey(Source, on_delete=models.CASCADE)
     analysis_type = models.ForeignKey(AnalysisType, on_delete=models.CASCADE)
-    polarity = models.TextField(choices=Polarity.choices, blank=False, null=False, )
+    polarity = models.TextField(choices=PolarityChoices.choices, blank=False, null=False, )
     pre_spary_time = models.PositiveIntegerField(default=500, )
     spray_voltage_pos = models.PositiveIntegerField(default=4500, )
     spray_voltage_neg = models.PositiveIntegerField(default=3000, )
     compound = SortedManyToManyField(Compound, blank=True)
-    compound_tag = models.ManyToManyField(CompoundTag, blank=True)
-    quant_method = SortedManyToManyField(QuantMethod, blank=True)
+    compoundtag = models.ManyToManyField(CompoundTag, blank=True)
+    quantmethod = SortedManyToManyField(QuantMethod, blank=True)
 
     def __str__(self):
         return self.code

@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
-from mos_web_server.accio.models import CompoundTag, Compound, Experiment, SpectrumTag, Spectrum, QuantMethod, Cartridge
+from mos_web_server.accio.models import CompoundTag, Compound, Experiment, SpectrumTag, Spectrum, QuantMethod, \
+    Cartridge
 
 
 # Create your api serializers here.
