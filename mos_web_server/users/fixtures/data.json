@@ -184,6 +184,16 @@
     }
   },
   {
+    "model": "account.emailaddress",
+    "pk": 1,
+    "fields": {
+      "email": "superuser@purspec.cn",
+      "verified": 1,
+      "primary": 1,
+      "user_id": 1
+    }
+  },
+  {
     "model": "users.user_groups",
     "pk": 2,
     "fields": {

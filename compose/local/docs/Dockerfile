@@ -2,7 +2,11 @@ ARG PYTHON_VERSION=3.9-slim-bullseye
 
 # define an alias for the specfic python version used in this file.
 FROM python:${PYTHON_VERSION} as python
+# Debian bullseye CN source https://mirrors.tuna.tsinghua.edu.cn
+COPY ./sources-bullseye.list /etc/apt/sources.list
 
+# pypi CN source https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 # Python build stage
 FROM python as python-build-stage

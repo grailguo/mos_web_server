@@ -14,7 +14,6 @@ services:
     platform: linux/x86_64
     depends_on:
       - mysql
-      - mailhog
     volumes:
       - .:/app:z
     env_file:
@@ -52,9 +51,3 @@ services:
     ports:
       - "9000:9000"
     command: /start-docs
-
-  mailhog:
-    image: mailhog/mailhog:v1.0.0
-    container_name: mos_web_server_local_mailhog
-    ports:
-      - "8025:8025"
