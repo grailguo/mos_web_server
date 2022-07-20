@@ -1,5 +1,5 @@
 from django.conf import settings
-from rest_framework.routers import DefaultRouter, SimpleRouter
+from rest_framework.routers import DefaultRouter
 
 from mos_web_server.accio.api.views import CompoundTagViewSet, CompoundViewSet, ExperimentViewSet, SpectrumTagViewSet, \
     SpectrumViewSet, QuantMethodViewSet, CartridgeViewSet
@@ -9,10 +9,12 @@ from mos_web_server.flagrate.views import DataTagViewSet, CaseViewSet, Substance
 from mos_web_server.reparo.api.views import DeviceViewSet
 from mos_web_server.users.api.views import UserViewSet, GroupViewSet, OrganizationViewSet
 
+# Current only use DefaultRouter in dev and prod by guo liang at 2022-07-20
 if settings.DEBUG:
     router = DefaultRouter()
 else:
-    router = SimpleRouter()
+    # router = SimpleRouter()
+    router = DefaultRouter()
 
 router.register("organizations", OrganizationViewSet)
 router.register("groups", GroupViewSet)
