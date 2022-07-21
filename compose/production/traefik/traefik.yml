@@ -28,7 +28,7 @@ certificatesResolvers:
 http:
   routers:
     web-secure-router:
-      rule: "Host(`mos.purspec.cn`)"
+      rule: "Host(`172.16.1.193`)"
       entryPoints:
         - web-secure
       middlewares:

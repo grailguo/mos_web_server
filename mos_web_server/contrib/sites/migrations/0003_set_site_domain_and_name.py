@@ -40,7 +40,7 @@ def update_site_forward(apps, schema_editor):
     _update_or_create_site_with_sequence(
         Site,
         schema_editor.connection,
-        "mos.purspec.cn",
+        "172.16.1.193",
         "MOS Web Server",
     )
 

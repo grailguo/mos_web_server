@@ -320,7 +320,7 @@ SPECTACULAR_SETTINGS = {
     "SERVE_PERMISSIONS": ["rest_framework.permissions.IsAdminUser"],
     "SERVERS": [
         {"url": "http://127.0.0.1:8000", "description": "Local Development server"},
-        {"url": "https://mos.purspec.cn", "description": "Production server"},
+        {"url": "https://172.16.1.193", "description": "Production server"},
     ],
 }
 # Your stuff...
