@@ -66,7 +66,7 @@ class CaseWithSubstanceSerializer(serializers.HyperlinkedModelSerializer):
     algorithm_parameters = serializers.JSONField(default=dict, initial=dict)
     analysis_parameters = serializers.JSONField(default=dict, initial=dict)
     config_parameters = serializers.JSONField(default=dict, initial=dict)
-    expected_result = serializers.JSONField(default=dict, initial=dict)
+    expected_result = serializers.JSONField(default=list, initial=list)
     substances = SubstanceSerializer(many=True, read_only=True, )
 
     class Meta:
